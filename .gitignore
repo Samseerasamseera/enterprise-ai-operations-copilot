@@ -1,0 +1,33 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+
+# Local databases and generated data
+*.db
+*.sqlite
+*.sqlite3
+storage/
+uploads/
+
+# Logs and editor files
+*.log
+.vscode/
+.idea/
+.DS_Store
